@@ -4,8 +4,8 @@
 
     body {
         background-color: black;
-        
-        background-position: top center;
+        background-image: url('../imagens/espaco.jpg');  
+        background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -13,7 +13,7 @@
     }
     
     #astronalta {
-        background-image: url('../imagens/espaco.jpg');
+        background-image: url('../imagens/astronauta.png');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
