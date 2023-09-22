@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do Astronalta</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <section id="astronalta">
+
+        </section>
+
+        <section id="form">
+            <h1>Cadastro</h1>
+            <form action="#" method="post" autocomplete="on">
+                <p>
+                    <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome" required minlength="5" maxlength="50" size="20" placeholder="Digite seu nome" autocomplete="name">
+                </p>
+                <br>
+                <p>
+                    <label for="isobre">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="isobrenome"  required minlength="5" maxlength="50" size="20" placeholder="Digite seu sobrenome">
+                </p>
+                <br>
+                <p>
+                    <label for="iendereço">Endereço:</label>
+                    <input type="text" name="endereço" id="iendereço" required minlength="5" maxlength="50" size="20" placeholder="Digite seu endereço" autocomplete="street-address">
+                </p>
+                <br>
+                <p>
+                    <label for="idata">Data:</label>
+                    <input type="date" name="data" id="idata" required>
+                </p>
+                <br>
+                <p>
+                    <label for="iemail">E-mail:</label>
+                    <input type="email" name="email" id="iemail" minlength="5" maxlength="50" size="20" placeholder="Digite seu E-mail" autocomplete="email">
+                </p>
+                <br>
+                <p>
+                    <label for="itel">Telefone:</label>
+                    <input type="tel" name="tel" id="itel" required pattern="^\(\d{2}/)(\[S])\d{4,5}-\d{4}" placeholder="(xx) xxxxx-xxxx" autocomplete="tel-area-code">
+                </p>
+                <br>
+                <p id="botoes">
+                    <input class="enviar" type="submit" value="Enviar">
+                    <input class="limpar" type="reset" value="Limpar">
+                </p>
+        </section>
+    </main>
+</body>
+</html>

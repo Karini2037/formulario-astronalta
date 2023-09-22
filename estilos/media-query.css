@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    
+    #astronalta {
+        background-image: url('../imagens/astronauta.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        width: 450px;
+        height: 450px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-150%, 30%);
+    }
+
+    #form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-20%, 20%);
+    }
+   
+}
